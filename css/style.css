@@ -4,7 +4,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 .login_image {
   position: absolute;
   width: 100vw;
@@ -14,7 +13,6 @@ body {
 }
 
 .login_section {
-  /* background-color: #f87171; */
   max-width: 40rem;
   height: 100vh;
   display: flex;
@@ -25,7 +23,6 @@ body {
 
 /* #1 */
 .login_information-box {
-  /* background-color: #fb923c; */
   margin-bottom: 4.8rem;
 }
 .login_title {
@@ -38,7 +35,6 @@ body {
 
 /* #2 */
 .login_form-box {
-  /* background-color: #facc15; */
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -73,9 +69,6 @@ body {
 }
 
 /* #3 */
-.login_forgot-box {
-  /* background-color: #a3e635; */
-}
 .login-forgot {
   display: block;
   color: #e6f0ee;
@@ -84,7 +77,6 @@ body {
   text-align: right;
   cursor: pointer;
 }
-
 .login-forgot a:link,
 .login-forgot a:visited {
   color: #e6f0ee;
@@ -94,7 +86,6 @@ body {
 .login-forgot a:active {
   text-decoration: underline;
 }
-
 /* ---------- Login Page ---------- */
 /* -------------------------------- */
 /*
@@ -135,7 +126,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.2rem;
   margin-bottom: 4.8rem;
 }
 .forgot_title {
@@ -146,13 +136,13 @@ body {
   line-height: 1.1;
   text-align: center;
 }
-.forgot_description {
+/* .forgot_description {
   color: #e6f0ee;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
   text-align: center;
-}
+} */
 
 /* #2 */
 .forgot-form-box {
@@ -200,3 +190,73 @@ body {
 */
 /*
 */
+/* ----------------------------------------- */
+/* ---------- Reset Password Page ---------- */
+body {
+  position: relative;
+  overflow: hidden;
+}
+.reset_image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.reset_section {
+  max-width: 40rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* #1 */
+.reset_information-box {
+  margin-bottom: 4.8rem;
+}
+.reset_title {
+  color: #e6f0ee;
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* #2 */
+.reset_form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.reset_password1,
+.reset_password2 {
+  background-color: rgba(230, 240, 238, 0.2);
+  color: #e6f0ee;
+  font-size: 2.4rem;
+  border: 2px solid #e6f0ee;
+  border-radius: 0.8rem;
+  padding: 1.2rem 2.4rem;
+}
+.reset_password2 {
+  margin-bottom: 2.4rem;
+}
+.reset_password1::placeholder,
+.reset_password2::placeholder {
+  color: rgba(230, 240, 238, 0.6);
+}
+.reset_button {
+  background-color: #e6f0ee;
+  color: #006b56;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  padding: 1.6rem 2.4rem;
+}
+/* ---------- Reset Password Page ---------- */
+/* ----------------------------------------- */
