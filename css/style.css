@@ -1,0 +1,99 @@
+/* -------------------------------- */
+/* ---------- Login Page ---------- */
+body {
+  overflow: hidden;
+  position: relative;
+}
+
+.login_image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.login_section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_title {
+  font-size: 6.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #e6f0ee;
+  margin-bottom: 8rem;
+}
+
+.login-form-box {
+  width: 40rem;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.login_username {
+  width: 100%;
+  background-color: rgba(230, 240, 238, 0.2);
+  color: #e6f0ee;
+  font-size: 2.4rem;
+  padding: 1.2rem 2.4rem;
+  border: 2px solid #e6f0ee;
+  border-radius: 0.8rem;
+}
+.login_password {
+  width: 100%;
+  background-color: rgba(230, 240, 238, 0.2);
+  font-size: 2.4rem;
+  padding: 1.2rem 2.4rem;
+  border: 2px solid #e6f0ee;
+  border-radius: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.login_username::placeholder,
+.login_password::placeholder {
+  color: rgba(230, 240, 238, 0.6);
+}
+
+.login_button {
+  width: 100%;
+  background-color: #e6f0ee;
+  color: #006b56;
+  border: none;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.login-forgot {
+  display: block;
+  text-align: right;
+  color: #e6f0ee;
+  font-size: 1.8rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* ---------- Login Page ---------- */
+/* -------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
