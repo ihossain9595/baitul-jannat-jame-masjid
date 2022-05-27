@@ -4,7 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Dashboard - Baitul Jannat Jame Masjid</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="dashboard_section">
+        <!-- #1 -->
+        <header class="header_section">
+          <!-- #1.1 -->
+          <div class="header_left-box">
+            <!-- #1.1.1 -->
+            <ion-icon class="header_menu-icon" name="menu-outline"></ion-icon>
+          </div>
+          <!-- #1.2 -->
+          <div class="header_right-box">
+            <!-- #1.2.1 -->
+            <p class="header_logo">Logo</p>
+            <!-- #1.2.2 -->
+            <div class="header_search-box">
+              <ion-icon class="header_search-icon" name="search-outline"></ion-icon>
+              <input class="header_search" type="search" name="search" id="search" placeholder="Search anything..." />
+            </div>
+            <!-- #1.2.3 -->
+            <ion-icon class="header_reload-icon" name="reload-outline"></ion-icon>
+            <!-- #1.2.4 -->
+            <ion-icon class="header_notify-icon" name="notifications-outline"></ion-icon>
+            <!-- #1.2.5 -->
+            <div class="header_user-box">
+              <div class="header_user-image"></div>
+            </div>
+          </div>
+        </header>
+
+        <!-- #2 -->
+        <section class="sidebar_section">
+          <div class="sidebar_navigation-box">
+            <!-- #2.1 -->
+            <div class="sidebar_headings-box">
+              <div class="sidebar_heading-box">
+                <ion-icon class="sidebar_heading-icon" name="sync-outline"></ion-icon>
+                <div class="sidebar_heading-box2">
+                  <p class="sidebar_heading"><a>Transactions</a></p>
+                  <ion-icon class="sidebar_arrow-icon sidebar_arrow--right" name="chevron-forward-outline"></ion-icon>
+                  <ion-icon class="sidebar_arrow-icon sidebar_arrow--down sidebar_arrow--down-hidden" name="chevron-down-outline"></ion-icon>
+                </div>
+              </div>
+              <ul class="sidebar_subheading-box sidebar_subheading-box--hidden">
+                <li class="sidebar_subheading"><a href="#">Add Transactions</a></li>
+                <li class="sidebar_subheading"><a href="#">View All Transaction list</a></li>
+                <li class="sidebar_subheading"><a href="#">Transaction category</a></li>
+                <li class="sidebar_subheading"><a href="#">Invoice</a></li>
+                <li class="sidebar_subheading"><a href="#">Money Receipt</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- #3 -->
+        <section class="content_section">
+          <header class="content_header-box">
+            <div class="content_heading">
+              <h1 class="content_h1">Invoice</h1>
+            </div>
+            <ul class="content_breadcrumbs">
+              <li class="content_breadcrumb-list">Home</li>
+              <li class="content_breadcrumb-list">Transaction</li>
+              <li class="content_breadcrumb-list">Invoice</li>
+            </ul>
+          </header>
+
+          <form action="">
+            <div>
+              <label for="invoice-no">Invoice No.</label>
+              <input type="text" name="invoiceNo" id="invoice-no" />
+            </div>
+
+            <div>
+              <label for="invoice-no">Invoice No.</label>
+              <input type="text" name="invoiceNo" id="invoice-no" />
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <script src="js/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 /* -------------------------------- */
 /* ---------- Login Page ---------- */
-body {
+.center-align {
   position: relative;
   overflow: hidden;
 }
@@ -100,7 +100,7 @@ body {
 */
 /* ------------------------------------------ */
 /* ---------- Forgot Password Page ---------- */
-body {
+.center-align {
   position: relative;
   overflow: hidden;
 }
@@ -192,7 +192,7 @@ body {
 */
 /* ----------------------------------------- */
 /* ---------- Reset Password Page ---------- */
-body {
+.center-align {
   position: relative;
   overflow: hidden;
 }
@@ -260,3 +260,227 @@ body {
 }
 /* ---------- Reset Password Page ---------- */
 /* ----------------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* --------------------------------- */
+/* ---------- Header Page ---------- */
+.dashboard_section {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 7rem 1fr;
+}
+
+.header_section {
+  background-color: #786fa6;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.5);
+  grid-column: 1/-1;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.header_left-box {
+  height: 7rem;
+  width: 7rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_menu-icon {
+  color: #fff;
+  font-size: 3.6rem;
+  cursor: pointer;
+  margin: 0.8rem;
+}
+
+.header_right-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+.header_logo {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header_search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 4rem;
+}
+.header_search-icon {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.header_search {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.8rem;
+  flex-grow: 1;
+  padding: 2.4rem 1rem;
+}
+.header_search::placeholder {
+  color: #cce1dd;
+}
+.header_search:focus {
+  outline: none;
+}
+.header_reload-icon,
+.header_notify-icon {
+  color: #fff;
+  font-size: 2.4rem;
+  cursor: pointer;
+  margin-left: 1.6rem;
+}
+
+.header_user-box {
+  margin-left: 2rem;
+}
+.header_user-image {
+  background-color: #65f071;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* ---------- Header Page ---------- */
+/* --------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------- */
+/* ---------- Sidebar Page ---------- */
+.sidebar_section {
+  background-color: #e77f67;
+  grid-row: 2/-1;
+  overflow: auto;
+}
+.sidebar_navigation-box {
+  margin: 2.4rem 1.2rem;
+}
+
+.sidebar_heading-box {
+  display: flex;
+  align-items: center;
+  margin: 1.6rem 0;
+}
+.sidebar_heading {
+  /* background-color: #65f071; */
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 3.2rem;
+  flex-grow: 1;
+}
+.sidebar_heading {
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar_heading-icon,
+.sidebar_arrow-icon {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-right: 0.8rem;
+}
+.sidebar_arrow--right-hidden {
+  display: none;
+}
+.sidebar_arrow--down-hidden {
+  display: none;
+}
+
+.sidebar_header-box2 {
+  display: flex;
+}
+
+.sidebar_subheading-box--hidden {
+  display: none;
+}
+.sidebar_subheading {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 1.6rem 0 1.6rem 2.6rem;
+}
+.sidebar_subheading a:link,
+.sidebar_subheading a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.display--none {
+  display: none;
+}
+/* ---------- Sidebar Page ---------- */
+/* ---------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------- */
+/* ---------- Content Page ---------- */
+.content_section {
+  background-color: #f7d794;
+  padding: 2.4rem;
+}
+
+.content_header-box {
+  /* background-color: #cad3c8; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 0;
+}
+
+.content_h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content_breadcrumb-list {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.content_breadcrumb-list::after {
+  content: "/";
+  margin: 0 0.8rem;
+  display: inline-block;
+}
+.content_breadcrumb-list:last-child::after {
+  content: "";
+  margin: 0 0;
+  display: inline-block;
+}
+
+/* ---------- Content Page ---------- */
+/* ---------------------------------- */
