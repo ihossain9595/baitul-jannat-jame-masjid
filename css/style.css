@@ -1,3 +1,5 @@
+/* --------------- */
+/* Message - Start */
 .section-message {
   width: 100vw;
   height: 100vh;
@@ -11,7 +13,7 @@
   padding: 0 3.2rem;
 }
 
-.success_container {
+.message_container {
   max-width: 120rem;
   flex-grow: 1;
 
@@ -25,11 +27,11 @@
   align-items: center;
 }
 
-.success_icon {
+.message_icon {
   margin-bottom: 2.4rem;
 }
 
-.sccess_title {
+.message_title {
   font-size: 6.2rem;
   font-weight: 700;
   color: #006b57;
@@ -38,7 +40,7 @@
   margin-bottom: 2.4rem;
 }
 
-.success_description {
+.message_description {
   max-width: 75rem;
 
   font-size: 1.6rem;
@@ -55,17 +57,167 @@
   color: #fff;
   box-shadow: 0 0.8rem 1.6rem rgba(0, 107, 87, 0.25);
   font-size: 1.6rem;
+  font-weight: 500;
+  border: none;
   border-radius: 0.4rem;
-  padding: 1.6rem 2.4rem;
 }
 
-.success_button:link,
-.success_button:visited {
+.message_button:link,
+.message_button:visited {
   text-decoration: none;
+  padding: 1.6rem 2.4rem;
   transition: all 0.2s;
 }
-.success_button:hover,
-.success_button:active {
+.message_button:hover,
+.message_button:active {
   box-shadow: none;
   background-color: #006351;
 }
+/* Message - End */
+/* ------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* --------------- */
+/* Sign In - Start */
+.section-signin {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 107, 87, 0.15);
+  padding: 3.2rem;
+}
+
+.signin_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 3.2rem;
+  align-content: center;
+}
+
+.signin_form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin_form {
+  max-width: 45rem;
+  flex-grow: 1;
+}
+
+.signin_box-1,
+.signin_box-2,
+.signin_box-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.signin_box-1 {
+  margin-bottom: 4rem;
+}
+.signin_title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a1b2b;
+}
+.signin_description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+
+.signin_box-2 {
+  margin-bottom: 2.4rem;
+}
+.signin_box-3 {
+  margin-bottom: 1.6rem;
+}
+.signin_label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+.signin_input-text {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1.6rem 1.2rem;
+}
+.signin_input-text:focus {
+  outline: 1px solid #006b57;
+}
+
+.signin_box-4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+.signin_input-checkbox {
+  margin-right: 0.8rem;
+}
+.signin_forgot-text:link,
+.signin_forgot-text:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #006b57;
+  margin-left: auto;
+}
+.signin_forgot-text:hover,
+.signin_forgot-text:active {
+  text-decoration: underline;
+}
+
+.signin_button {
+  text-decoration: none;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 107, 87, 0.25);
+  transition: all 0.2s;
+  padding: 1.6rem 7rem;
+  margin-bottom: 4.8rem;
+}
+.signin_button:hover {
+  box-shadow: none;
+  background-color: #006351;
+}
+
+.signin_account-text {
+  font-size: 1.6rem;
+  color: #0a1b2b;
+}
+
+.signin_link-signup:link,
+.signin_link-signup:visited {
+  text-decoration: none;
+  font-weight: 500;
+  color: #006b57;
+}
+.signin_link-signup:hover,
+.signin_link-signup:active {
+  text-decoration: underline;
+}
+
+.signin_image-box {
+  border-radius: 4rem;
+  overflow: hidden;
+}
+.signin_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Sign In - End */
+/* ------------- */
