@@ -85,8 +85,8 @@
 */
 /*
 */
-/* --------------- */
-/* Sign In - Start */
+/* ---------------------- */
+/* Form : Sign In - Start */
 .section-signin {
   width: 100vw;
   height: 100vh;
@@ -110,7 +110,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .signin_form {
   max-width: 45rem;
   flex-grow: 1;
@@ -121,11 +120,23 @@
 .signin_box-3 {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.2rem;
 }
 .signin_box-1 {
-  margin-bottom: 4rem;
+  margin-bottom: 4.8rem;
 }
+.signin_box-2 {
+  margin-bottom: 2.4rem;
+}
+.signin_box-3 {
+  margin-bottom: 1.6rem;
+}
+.signin_box-4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
 .signin_title {
   font-size: 3rem;
   font-weight: 600;
@@ -137,12 +148,6 @@
   color: #819cb5;
 }
 
-.signin_box-2 {
-  margin-bottom: 2.4rem;
-}
-.signin_box-3 {
-  margin-bottom: 1.6rem;
-}
 .signin_label {
   display: block;
   font-size: 1.6rem;
@@ -161,11 +166,6 @@
   outline: 1px solid #006b57;
 }
 
-.signin_box-4 {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4.8rem;
-}
 .signin_input-checkbox {
   margin-right: 0.8rem;
 }
@@ -219,5 +219,362 @@
   height: 100%;
   object-fit: cover;
 }
-/* Sign In - End */
-/* ------------- */
+/* Form : Sign In - End */
+/* -------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------- */
+/* Form : Sign Up - Start */
+.section-signup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 107, 87, 0.15);
+  padding: 3.2rem;
+}
+
+.signup_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 3.2rem;
+  align-content: center;
+}
+
+.signup_form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup_form {
+  max-width: 45rem;
+  flex-grow: 1;
+}
+
+.signup_box-1,
+.signup_box-2,
+.signup_box-3,
+.signup_box-4,
+.signup_box-5,
+.signup_first-name-box,
+.signup_last-name-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.signup_box-1 {
+  margin-bottom: 4.8rem;
+}
+.signup_box-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.signup_box-3,
+.signup_box-4 {
+  margin-bottom: 2.4rem;
+}
+.signup_box-5 {
+  margin-bottom: 1.6rem;
+}
+.signup_box-6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.signup_title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a1b2b;
+}
+.signup_description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+
+.signup_label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+.signup_input-text {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1.6rem 1.2rem;
+}
+.signup_input-text:focus {
+  outline: 1px solid #006b57;
+}
+
+.signup_input-checkbox {
+  margin-right: 0.8rem;
+}
+
+.signup_link-signin:link,
+.signup_link-signin:visited {
+  text-decoration: none;
+  font-weight: 500;
+  color: #006b57;
+}
+.signup_link-signin:hover,
+.signup_link-signin:active {
+  text-decoration: underline;
+}
+
+.signup_button {
+  text-decoration: none;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 107, 87, 0.25);
+  transition: all 0.2s;
+  padding: 1.6rem 7rem;
+  margin-bottom: 4.8rem;
+}
+.signup_button:hover {
+  box-shadow: none;
+  background-color: #006351;
+}
+
+.signup_image-box {
+  border-radius: 4rem;
+  overflow: hidden;
+}
+.signup_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Form : Sign Up - End */
+/* -------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ------------------------------ */
+/* Form : Forgot Password - Start */
+.section-forgot {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 107, 87, 0.15);
+  padding: 3.2rem;
+}
+
+.forgot_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 3.2rem;
+  align-content: center;
+}
+
+.forgot_form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forgot_form {
+  max-width: 45rem;
+  flex-grow: 1;
+}
+
+.forgot_box-1,
+.forgot_box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.forgot_box-1 {
+  margin-bottom: 4.8rem;
+}
+.forgot_box-2 {
+  margin-bottom: 4.8rem;
+}
+
+.forgot_title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a1b2b;
+}
+.forgot_description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+
+.forgot_label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+.forgot_input-text {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1.6rem 1.2rem;
+}
+.forgot_input-text:focus {
+  outline: 1px solid #006b57;
+}
+
+.forgot_button {
+  text-decoration: none;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 107, 87, 0.25);
+  transition: all 0.2s;
+  padding: 1.6rem 7rem;
+}
+.forgot_button:hover {
+  box-shadow: none;
+  background-color: #006351;
+}
+
+.signup_account-text {
+  font-size: 1.6rem;
+  color: #0a1b2b;
+}
+
+.forgot_image-box {
+  border-radius: 4rem;
+  overflow: hidden;
+}
+.forgot_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Form : Forgot Password - End */
+/* ---------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ----------------------------- */
+/* Form : Reset Password - Start */
+.section-reset {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 107, 87, 0.15);
+  padding: 3.2rem;
+}
+
+.reset_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 3.2rem;
+  align-content: center;
+}
+
+.reset_form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reset_form {
+  max-width: 45rem;
+  flex-grow: 1;
+}
+
+.reset_box-1,
+.reset_box-2,
+.reset_box-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.reset_box-1 {
+  margin-bottom: 4.8rem;
+}
+.reset_box-2 {
+  margin-bottom: 2.4rem;
+}
+.reset_box-3 {
+  margin-bottom: 4.8rem;
+}
+
+.reset_title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #0a1b2b;
+}
+.reset_description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+
+.reset_label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #819cb5;
+}
+.reset_input-text {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1.6rem 1.2rem;
+}
+.reset_input-text:focus {
+  outline: 1px solid #006b57;
+}
+
+.reset_button {
+  text-decoration: none;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 107, 87, 0.25);
+  transition: all 0.2s;
+  padding: 1.6rem 7rem;
+}
+.reset_button:hover {
+  box-shadow: none;
+  background-color: #006351;
+}
+
+.reset_image-box {
+  border-radius: 4rem;
+  overflow: hidden;
+}
+.reset_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Form : Reset Password - End */
+/* --------------------------- */
