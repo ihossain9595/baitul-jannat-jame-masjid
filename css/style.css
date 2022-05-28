@@ -2,7 +2,7 @@
 /* Message - Start */
 .section-message {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   background-color: rgba(0, 107, 87, 0.15);
 
@@ -10,21 +10,21 @@
   align-items: center;
   justify-content: center;
 
-  padding: 0 3.2rem;
+  padding: 3.2rem;
 }
 
 .message_container {
   max-width: 120rem;
+  min-height: calc(100vh - 25vh);
   flex-grow: 1;
-
   background-color: #fff;
   box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 4rem;
-  padding: 16rem 3.2rem;
-
+  padding: 12.8rem 3.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .message_icon {
@@ -88,16 +88,11 @@
 /* ---------------------- */
 /* Form : Sign In - Start */
 .section-signin {
-  width: 100vw;
-  height: 100vh;
   background-color: rgba(0, 107, 87, 0.15);
   padding: 3.2rem;
 }
 
 .signin_container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -105,7 +100,16 @@
   align-content: center;
 }
 
+.signin_image {
+  width: calc(100vw - (50vw + 4.8rem));
+  height: calc(100vh - 6.4rem);
+  object-fit: cover;
+  position: fixed;
+  border-radius: 4rem;
+}
+
 .signin_form-box {
+  min-height: calc(100vh - 6.4rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,16 +213,6 @@
 .signin_link-signup:active {
   text-decoration: underline;
 }
-
-.signin_image-box {
-  border-radius: 4rem;
-  overflow: hidden;
-}
-.signin_image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 /* Form : Sign In - End */
 /* -------------------- */
 /*
@@ -234,16 +228,11 @@
 /* ---------------------- */
 /* Form : Sign Up - Start */
 .section-signup {
-  width: 100vw;
-  height: 100vh;
   background-color: rgba(0, 107, 87, 0.15);
   padding: 3.2rem;
 }
 
 .signup_container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -251,7 +240,16 @@
   align-content: center;
 }
 
+.signup_image {
+  width: calc(100vw - (50vw + 4.8rem));
+  height: calc(100vh - 6.4rem);
+  object-fit: cover;
+  position: fixed;
+  border-radius: 4rem;
+}
+
 .signup_form-box {
+  min-height: calc(100vh - 6.4rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -349,16 +347,6 @@
   box-shadow: none;
   background-color: #006351;
 }
-
-.signup_image-box {
-  border-radius: 4rem;
-  overflow: hidden;
-}
-.signup_image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 /* Form : Sign Up - End */
 /* -------------------- */
 /*
@@ -374,16 +362,11 @@
 /* ------------------------------ */
 /* Form : Forgot Password - Start */
 .section-forgot {
-  width: 100vw;
-  height: 100vh;
   background-color: rgba(0, 107, 87, 0.15);
   padding: 3.2rem;
 }
 
 .forgot_container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -391,7 +374,16 @@
   align-content: center;
 }
 
+.forgot_image {
+  width: calc(100vw - (50vw + 4.8rem));
+  height: calc(100vh - 6.4rem);
+  object-fit: cover;
+  position: fixed;
+  border-radius: 4rem;
+}
+
 .forgot_form-box {
+  min-height: calc(100vh - 6.4rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -458,16 +450,6 @@
   font-size: 1.6rem;
   color: #0a1b2b;
 }
-
-.forgot_image-box {
-  border-radius: 4rem;
-  overflow: hidden;
-}
-.forgot_image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 /* Form : Forgot Password - End */
 /* ---------------------------- */
 /*
@@ -483,16 +465,11 @@
 /* ----------------------------- */
 /* Form : Reset Password - Start */
 .section-reset {
-  width: 100vw;
-  height: 100vh;
   background-color: rgba(0, 107, 87, 0.15);
   padding: 3.2rem;
 }
 
 .reset_container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -500,7 +477,16 @@
   align-content: center;
 }
 
+.reset_image {
+  width: calc(100vw - (50vw + 4.8rem));
+  height: calc(100vh - 6.4rem);
+  object-fit: cover;
+  position: fixed;
+  border-radius: 4rem;
+}
+
 .reset_form-box {
+  min-height: calc(100vh - 6.4rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -565,16 +551,6 @@
 .reset_button:hover {
   box-shadow: none;
   background-color: #006351;
-}
-
-.reset_image-box {
-  border-radius: 4rem;
-  overflow: hidden;
-}
-.reset_image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 /* Form : Reset Password - End */
 /* --------------------------- */
