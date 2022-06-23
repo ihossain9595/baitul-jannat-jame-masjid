@@ -613,7 +613,6 @@
 
 /* Dashboard */
 .navbar_dashboard-box {
-  /* background-color: #fde68a; */
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -649,13 +648,11 @@
   padding-bottom: 1.6rem;
 }
 .navbar_list-box {
-  /* background-color: #fecaca; */
   display: flex;
   flex-direction: column;
   cursor: pointer;
 }
 .navbar_list-item {
-  /* background-color: #d9f99d; */
   display: flex;
   align-items: center;
   padding: 1.2rem 3rem;
@@ -720,7 +717,6 @@
   position: absolute;
   right: -1.8rem;
   top: 50%;
-  /* transform: translateX(-50%); */
   transform: translateY(-50%);
 
   background-color: #013580;
@@ -732,33 +728,76 @@
   justify-content: center;
 }
 
-.primary_container {
-  background-color: #e5f4ef;
-}
-
 .header_container {
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
-
   background-color: #00815c;
-
   display: flex;
   align-items: center;
-
-  padding: 0 2.4rem;
+  justify-content: space-between;
+  padding: 0 3.2rem;
 }
 .header_search-box {
-  background-color: #e9ecef;
+  background-color: #fff;
   display: flex;
   align-items: center;
+  border: 1px solid #e9ecef;
+  border-radius: 0.4rem;
   padding: 0.4rem 1.2rem;
 }
 .header_search-icon {
-  font-size: 2.4rem;
+  margin-right: 1.2rem;
 }
 .header_search-bar {
-  width: 24rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  border: none;
+  width: 30rem;
   height: 3rem;
+  font-size: 1.6rem;
+}
+.header_search-bar::placeholder {
+  color: #adb5bd;
+}
+.header_search-bar:focus {
+  outline: none;
+}
+.header_information-box {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.header_info-icon {
+  cursor: pointer;
+}
+.header_profile-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  cursor: pointer;
+}
+.header_profile-image-box {
+  background-color: #fff;
+  height: 4.4rem;
+  width: 4.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header_profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header_profile-name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #232d42;
 }
 /* Dashboard - End */
 /* --------------- */
+
+.primary_container {
+  background-color: #e5f4ef;
+}
