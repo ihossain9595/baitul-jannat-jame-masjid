@@ -138,3 +138,132 @@ ul {
 */
 /*
 */
+/* ----------------------------- */
+/* ---------- Default ---------- */
+.primary_header-1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #00815c;
+  margin-bottom: 2.4rem;
+}
+.primary_header-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #4f4f4f;
+  margin-bottom: 1.6rem;
+}
+
+.primary_label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+
+.primary_input {
+  display: block;
+  width: 100%;
+  height: 5.2rem;
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  outline: none;
+  border-radius: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1.2rem 2.4rem;
+}
+.primary_input:focus {
+  border: 2px solid #00815c;
+}
+
+.primary_select-box {
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  /* border: 2px solid #00815c; */
+  border-radius: 0.4rem;
+  padding: 1.05rem 2.4rem;
+}
+.primary_select {
+  display: block;
+  width: 100%;
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.primary_upload--photo {
+  width: 50%;
+  height: 25rem;
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary_upload--nid {
+  width: 100%;
+  height: 25rem;
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary_button {
+  height: 5.2rem;
+  background-color: #006b57;
+  border: 2px solid #006b57;
+  border-radius: 0.4rem;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 2.4rem;
+  margin-left: 0;
+}
+
+.primary_grid--1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+}
+.primary_grid--2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+}
+.primary_grid--5-custom {
+  display: grid;
+  grid-template-columns: 6.4rem 1fr 12.8rem 12.8rem 0.5fr;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+}
+
+.primary_flex-box--left {
+  display: flex;
+  justify-content: flex-start;
+}
+.primary_flex-box--right {
+  display: flex;
+  justify-content: flex-end;
+}
+/* ---------- Default ---------- */
+/* ----------------------------- */
