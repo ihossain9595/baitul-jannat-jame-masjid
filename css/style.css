@@ -884,6 +884,18 @@
 .primary_table-heading--edit {
   width: 7.5rem;
 }
+.primary_table-heading--type {
+  width: 20rem;
+}
+.primary_table-heading--30 {
+  width: 30rem;
+}
+.primary_table-heading--25 {
+  width: 25rem;
+}
+.primary_table-heading--20 {
+  width: 20rem;
+}
 
 .primary_pagination-box {
   display: flex;
@@ -899,4 +911,91 @@
   font-weight: 500;
   color: #515151;
   margin-right: 3.2rem;
+}
+
+.primary_button-bank-box {
+  margin-bottom: 4.8rem;
+}
+
+.primary_add-bank-accounts-box {
+  margin-bottom: 3.2rem;
+}
+
+.primary_send-sms-box {
+  margin-bottom: 6.4rem;
+}
+.primary_sms-box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.25fr 0.75fr;
+  align-items: start;
+  column-gap: 2.4rem;
+}
+
+.primary_add-number-box {
+  /* background-color: #d9f99d; */
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #c9c9c9;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+.primary_add-number {
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1.2rem 1.6rem;
+}
+.primary_suggestion-box {
+  padding: 1.2rem 1.6rem;
+}
+.primary_text-suggestion {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #acacac;
+  margin-bottom: 1.6rem;
+}
+.primary_suggestion-list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.primary_suggestion-list {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #515151;
+}
+
+.primary_message-box {
+  /* background-color: #bae6fd; */
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #c9c9c9;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+.primary_message {
+  min-width: 100%;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 2.4rem 2.4rem;
+}
+.primary_message-limit {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #515151;
+  padding: 1.6rem 2.4rem 2.4rem 2.4rem;
+}
+
+.primary_button--send-sms {
+  position: absolute;
+  right: 2.4rem;
+  bottom: 0;
+  transform: translateY(50%);
+  padding: 1.4rem 4.8rem;
 }

@@ -243,6 +243,9 @@ ul {
   border: 2px solid #00815c;
   color: #00815c;
 }
+.primary_button--bank {
+  padding: 1.4rem 4.8rem;
+}
 
 .primary_grid--1 {
   display: grid;
