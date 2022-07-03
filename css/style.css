@@ -999,3 +999,350 @@
   transform: translateY(50%);
   padding: 1.4rem 4.8rem;
 }
+/* Form : Reset Password - End */
+/* --------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ------------------------ */
+/* Dashboard Box #1 - Start */
+.dashboard_box-1 {
+  grid-column: 1 / -1;
+
+  background-color: #013580;
+  border-radius: 0.4rem;
+  padding: 6.4rem 3.2rem;
+}
+.box1_title {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+.box1_description {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+/* Dashboard Box #1 - End */
+/* ---------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* -------------------------- */
+/* Dashboard Box #2.1 - Start */
+.dashboard_box2-1 {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 2.4rem;
+}
+.box2-1_container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+.box2-1_title {
+  color: #232d42;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.box2-1_container--right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.box2-1_title-sort {
+  color: #8a92a6;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.box2-1_container-2 {
+  display: flex;
+  justify-content: center;
+}
+/* Dashboard Box #2.1 - End */
+/* ------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* -------------------------- */
+/* Dashboard Box #2.2 - Start */
+.dashboard_box2-2 {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 2.4rem;
+}
+.box2-2_container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+.box2-2_title {
+  color: #232d42;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.box2-2_container--right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.box2-2_title-sort {
+  color: #8a92a6;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.box2-2_container-2 {
+  display: flex;
+  justify-content: center;
+}
+/* Dashboard Box #2.2 - End */
+/* ------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* -------------------------- */
+/* Dashboard Box #2.3 - Start */
+.dashboard_box2-3 {
+  grid-column: 1/-1;
+
+  background-color: #fff;
+  border-radius: 0.4rem;
+  /* padding: 2.4rem; */
+}
+.box2-3_container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+}
+.box2-3_title {
+  color: #232d42;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.box2-3_description {
+  color: #8a92a6;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.box2-3_container-2 {
+  width: 100%;
+}
+
+.box2-3_container-2 {
+  border-collapse: collapse;
+}
+
+.box2-3_container-2 th {
+  background-color: #f5f6fa;
+  color: #8a92a6;
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 1.2rem;
+}
+.box2-3_container-2 td {
+  color: #232d42;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1.2rem;
+}
+.box2-3_container-2 tr {
+  border-bottom: 1px solid #e9ecef;
+}
+.box2-3_container-2 tr:last-child {
+  border-bottom: none;
+}
+.box2-3_table-circle-box {
+  display: flex;
+}
+.box2-3_table-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #3a57e8;
+  border: 2px solid #3a57e8;
+  border-radius: 50%;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.box2-3_table-circle:not(:first-child) {
+  margin-left: -1.2rem;
+}
+.box2-3_table-percentage-box {
+  margin-bottom: 0.8rem;
+}
+.box2-3_table-square-box {
+  position: relative;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.box2-3_table-square--empty {
+  background-color: #e9ecef;
+  height: 1.2rem;
+}
+.box2-3_table-square--completed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #3a57e8;
+  height: 1.2rem;
+  width: 40%;
+}
+/* Dashboard Box #2.3 - End */
+/* ------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* -------------------------- */
+/* Dashboard Box #3.1 - Start */
+.dashboard_box3-1 {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 2.4rem;
+  align-self: start;
+}
+.box3-1_container {
+  display: flex;
+  justify-content: space-between;
+}
+.box3-1_container--left,
+.box3-1_container--right {
+  text-align: center;
+}
+.box3-1_title {
+  color: #232d42;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.box3-1_description {
+  color: #8a92a6;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+/* Dashboard Box #3.1 - End */
+/* ------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* -------------------------- */
+/* Dashboard Box #3.2 - Start */
+.dashboard_box3-2 {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 2.4rem;
+}
+.box3-2_container-1 {
+  margin-bottom: 1.2rem;
+}
+.box3-2_title {
+  color: #232d42;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.box3-2_description-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.box3-2_description {
+  color: #8a92a6;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.box3-2_activity-container {
+  /* background-color: #006351; */
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+}
+.box3-2_activity-title-1 {
+  color: #232d42;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.box3-2_activity-title-2 {
+  color: #8a92a6;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Dashboard Box #3.2 - End */
+/* ------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ------------------------ */
+/* Dashboard Box #4 - Start */
+.dashboard_box-4 {
+  grid-column: 1 / -1;
+}
+.box4_title {
+  text-align: right;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* Dashboard Box #4 - End */
+/* ---------------------- */

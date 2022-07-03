@@ -246,6 +246,38 @@ ul {
 .primary_button--bank {
   padding: 1.4rem 4.8rem;
 }
+/* ---------- x ---------- */
+/* -------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------- */
+/* ---------- Grid - Start ---------- */
+.grid {
+  display: grid;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+}
+
+.dashboard_grid--2-1 {
+  grid-template-columns: 2.2fr 1fr;
+  align-content: start;
+}
+.dashboard_grid--2-2 {
+  grid-template-columns: 1fr 1.2fr;
+  align-content: start;
+}
+.dashboard_grid--1 {
+  grid-template-columns: 1fr;
+  align-content: start;
+}
 
 .primary_grid--1 {
   display: grid;
@@ -272,7 +304,20 @@ ul {
   column-gap: 2.4rem;
   row-gap: 2.4rem;
 }
-
+/* ---------- Grid - End ---------- */
+/* -------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------- */
+/* ---------- x ---------- */
 .primary_flex-box--left {
   display: flex;
   justify-content: flex-start;
