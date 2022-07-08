@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/queries.css" />
     <!-- Style Links - End -->
 
-    <title>Add Transaction - Baitul Jannat Jame Masjid</title>
+    <title>Add Bank Accounts - Baitul Jannat Jame Masjid</title>
   </head>
 
   <body>
@@ -57,8 +57,8 @@
             <!-------------------------------------->
             <!----- Navbar : Dashboard - Start ----->
             <a class="navbar_dashboard-box" href="index.html">
-              <div class="navbar_dashboard-bar">&nbsp;</div>
-              <svg class="navbar_dashboard-icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div class="navbar_dashboard-bar navbar_dashboard-bar--active">&nbsp;</div>
+              <svg class="navbar_dashboard-icon navbar_dashboard-icon--active" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M14.0756 0.0131836H17.4616C18.8639 0.0131836 20.0001 1.15904 20.0001 2.57315V5.98771C20.0001 7.40182 18.8639 8.54767 17.4616 8.54767H14.0756C12.6734 8.54767 11.5371 7.40182 11.5371 5.98771V2.57315C11.5371 1.15904 12.6734 0.0131836 14.0756 0.0131836" fill="#819CB5" />
                 <path
                   fill-rule="evenodd"
@@ -67,7 +67,7 @@
                   fill="#819CB5"
                 />
               </svg>
-              <div class="navbar_dashboard-name">Dashboard</div>
+              <div class="navbar_dashboard-name navbar_dashboard-name--active">Dashboard</div>
             </a>
             <!------ Navbar : Dashboard - End ------>
             <!-------------------------------------->
@@ -84,7 +84,7 @@
                   <!----------------------------------->
                   <!----- Navbar : Item-1 - Start ----->
                   <div class="navbar_item-box">
-                    <svg class="navbar_item-icon navbar_item-icon--active" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="navbar_item-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path opacity="0.4" d="M11.3051 3.88243V4.06547C10.8144 4.05584 10.3237 4.05584 9.83306 4.05584V3.89206C9.83306 3.22733 9.27368 2.68784 8.60636 2.68784H7.63482C6.52589 2.68784 5.62305 1.80152 5.62305 0.722536C5.62305 0.32755 5.95671 0 6.35906 0C6.77123 0 7.09508 0.32755 7.09508 0.722536C7.09508 1.01155 7.34042 1.24276 7.63482 1.24276H8.60636C10.0882 1.2524 11.2953 2.43736 11.3051 3.88243Z" fill="#819CB5" />
                       <path
                         fill-rule="evenodd"
@@ -93,24 +93,24 @@
                         fill="#819CB5"
                       />
                     </svg>
-                    <div class="navbar_item-name navbar_item-name--active">Transaction</div>
+                    <div class="navbar_item-name">Transaction</div>
                   </div>
                   <!------ Navbar : Item-1 - End ------>
                   <!----------------------------------->
 
                   <!----------------------------------->
                   <!----- Navbar : Item-2 - Start ----->
-                  <ul class="navbar_subitems-box navbar_subitems-box--show">
+                  <ul class="navbar_subitems-box">
                     <li class="navbar_subitem-box--1">
                       <a class="navbar_subitem-box--2" href="form_transaction--add.html">
-                        <div class="navbar_subitem-bar navbar_subitem-bar--active">&nbsp;</div>
-                        <svg class="navbar_subitem-icon navbar_subitem-icon--active" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div class="navbar_subitem-bar">&nbsp;</div>
+                        <svg class="navbar_subitem-icon" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M13.7161 15.2102H6.49609" stroke="#819cb5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                           <path d="M13.7161 11.0237H6.49609" stroke="#819cb5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                           <path d="M9.25207 6.84689H6.49707" stroke="#819cb5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M13.909 1.7366C13.909 1.7366 6.23198 1.7406 6.21998 1.7406C3.45998 1.7576 1.75098 3.5736 1.75098 6.3436V15.5396C1.75098 18.3236 3.47298 20.1466 6.25698 20.1466C6.25698 20.1466 13.933 20.1436 13.946 20.1436C16.706 20.1266 18.416 18.3096 18.416 15.5396V6.3436C18.416 3.5596 16.693 1.7366 13.909 1.7366Z" stroke="#819cb5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        <div class="navbar_subitem-name navbar_subitem-name--active">Add Transaction</div>
+                        <div class="navbar_subitem-name">Add Transaction</div>
                       </a>
                     </li>
 
@@ -663,71 +663,119 @@
         <!-- Section : Primary -->
         <section class="section-primary">
           <div class="primary_container">
-            <h1 class="primary_header-1">Add Transaction</h1>
-            <form class="primary_form-box" action="">
-              <div class="primary_row-1">
-                <div class="primary_grid--2">
-                  <div>
-                    <label class="primary_label" for="invoice-no">Invoice No.</label>
-                    <input class="primary_input" type="text" name="invoice-no" id="invoice-no" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="date">Date</label>
-                    <input class="primary_input" type="date" name="date" id="date" />
-                  </div>
-                </div>
-              </div>
+            <div class="primary_add-bank-accounts-box">
+              <h1 class="primary_header-1">Add Bank Accounts</h1>
+              <form class="primary_form-box" action="">
+                <div class="primary_row-1">
+                  <div class="primary_grid--2">
+                    <div class="primary_grid--1">
+                      <div>
+                        <label class="primary_label" for="bank-name">Bank Name</label>
+                        <input class="primary_input" type="text" name="bank-name" id="bank-name" />
+                      </div>
+                      <div>
+                        <label class="primary_label" for="branch-name">Branch Name</label>
+                        <input class="primary_input" type="text" name="branch-name" id="branch-name" />
+                      </div>
+                      <div>
+                        <label class="primary_label" for="swift-code">Swift Code</label>
+                        <input class="primary_input" type="text" name="swift-code" id="swift-code" />
+                      </div>
+                    </div>
 
-              <div class="primary_row-2">
-                <h2 class="primary_header-2">Bill To</h2>
-                <div class="primary_grid--2">
-                  <div>
-                    <label class="primary_label" for="name">Name</label>
-                    <input class="primary_input" type="text" name="name" id="name" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="address">Address</label>
-                    <input class="primary_input" type="text" name="address" id="address" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="phone-number">Phone Number</label>
-                    <input class="primary_input" type="tel" name="phone-number" id="phone-number" />
+                    <div class="primary_grid--1">
+                      <div>
+                        <label class="primary_label" for="account-name">Account Name</label>
+                        <input class="primary_input" type="text" name="account-name" id="account-name" />
+                      </div>
+                      <div>
+                        <label class="primary_label" for="account-type">Account Type</label>
+                        <input class="primary_input" type="text" name="account-type" id="account-type" />
+                      </div>
+                      <div>
+                        <label class="primary_label" for="routing-number">Routing Number</label>
+                        <input class="primary_input" type="text" name="routing-number" id="routing-number" />
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </form>
+            </div>
 
-              <div class="primary_row-3">
-                <div class="primary_grid--5-custom">
-                  <div>
-                    <label class="primary_label" for="serial-no">Sl No.</label>
-                    <input class="primary_input" type="text" name="serial-no" id="serial-no" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="description">Description</label>
-                    <input class="primary_input" type="text" name="description" id="description" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="unit-price">Unit Price</label>
-                    <input class="primary_input" type="text" name="unit-price" id="unit-price" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="quantity">Quantity</label>
-                    <input class="primary_input" type="text" name="quantity" id="quantity" />
-                  </div>
-                  <div>
-                    <label class="primary_label" for="total-price">Total Price</label>
-                    <input class="primary_input" type="text" name="total-price" id="total-price" />
-                  </div>
-                  <div class="primary_add-information-box">Add Line</div>
-                </div>
-              </div>
+            <div class="primary_button-bank-box">
+              <button class="primary_button primary_button--bank">Add Bank</button>
+            </div>
 
-              <div class="primary_row-4">
-                <div class="primary_flex-box--right">
-                  <input class="primary_button" type="button" value="Add Transaction" />
-                </div>
+            <div>
+              <h1 class="primary_header-1">Bank Accounts</h1>
+              <table class="primary_table-box">
+                <tr class="primary_table-row">
+                  <th class="primary_table-heading primary_table-heading--tick">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="9" height="9" rx="0.5" stroke="#00815C" />
+                    </svg>
+                  </th>
+                  <th class="primary_table-heading primary_table-heading--auto">Bank Name</th>
+                  <th class="primary_table-heading primary_table-heading--25">Account Number</th>
+                  <th class="primary_table-heading primary_table-heading--20">Account Type</th>
+                  <th class="primary_table-heading primary_table-heading--20">Balance</th>
+                  <th class="primary_table-heading primary_table-heading--edit"></th>
+                </tr>
+
+                <tr class="primary_table-row">
+                  <td class="primary_table-content">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="9" height="9" rx="0.5" stroke="#00815C" />
+                    </svg>
+                  </td>
+                  <td class="primary_table-content">Islami Bank Bangladesh Limited</td>
+                  <td class="primary_table-content">40453 424252342</td>
+                  <td class="primary_table-content">Current</td>
+                  <td class="primary_table-content">450,000</td>
+                  <td class="primary_table-content">
+                    <svg width="20" height="4" viewBox="0 0 20 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 0C11.1046 -4.82823e-08 12 0.89543 12 2C12 3.10457 11.1046 4 10 4C8.89543 4 8 3.10457 8 2C8 0.895431 8.89543 4.82823e-08 10 0Z" fill="#2D264B" />
+                      <path d="M2 0C3.10457 -4.82823e-08 4 0.89543 4 2C4 3.10457 3.10457 4 2 4C0.89543 4 4.82824e-08 3.10457 0 2C-4.82821e-08 0.895431 0.89543 4.82823e-08 2 0Z" fill="#2D264B" />
+                      <path d="M18 0C19.1046 -4.82823e-08 20 0.89543 20 2C20 3.10457 19.1046 4 18 4C16.8954 4 16 3.10457 16 2C16 0.895431 16.8954 4.82823e-08 18 0Z" fill="#2D264B" />
+                    </svg>
+                  </td>
+                </tr>
+
+                <tr class="primary_table-row">
+                  <td class="primary_table-content">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="9" height="9" rx="0.5" stroke="#00815C" />
+                    </svg>
+                  </td>
+                  <td class="primary_table-content">The City Bank Limited</td>
+                  <td class="primary_table-content">40453 424252342</td>
+                  <td class="primary_table-content">Current</td>
+                  <td class="primary_table-content">3,200,000</td>
+                  <td class="primary_table-content">
+                    <svg width="20" height="4" viewBox="0 0 20 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 0C11.1046 -4.82823e-08 12 0.89543 12 2C12 3.10457 11.1046 4 10 4C8.89543 4 8 3.10457 8 2C8 0.895431 8.89543 4.82823e-08 10 0Z" fill="#2D264B" />
+                      <path d="M2 0C3.10457 -4.82823e-08 4 0.89543 4 2C4 3.10457 3.10457 4 2 4C0.89543 4 4.82824e-08 3.10457 0 2C-4.82821e-08 0.895431 0.89543 4.82823e-08 2 0Z" fill="#2D264B" />
+                      <path d="M18 0C19.1046 -4.82823e-08 20 0.89543 20 2C20 3.10457 19.1046 4 18 4C16.8954 4 16 3.10457 16 2C16 0.895431 16.8954 4.82823e-08 18 0Z" fill="#2D264B" />
+                    </svg>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- <div class="primary_pagination-box">
+              <div class="primary_button-left-box">
+                <div class="primary_button primary_button--action">Bulk Actions</div>
               </div>
-            </form>
+              <div class="primary_pagination-right-box">
+                <div class="primary_page-box">
+                  <span class="primary_page">1</span>
+                  <span class="primary_page">2</span>
+                  <span class="primary_page">3</span>
+                  <span class="primary_page">4</span>
+                </div>
+                <div class="primary_button primary_button--next">Next</div>
+              </div>
+            </div> -->
           </div>
         </section>
         1
