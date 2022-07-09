@@ -53,6 +53,15 @@ listsContainer.addEventListener("click", function (e) {
 //
 /////////
 //
+listsContainer.addEventListener("click", function (e) {
+  const parentContainer = e.target.closest(".navbar_subitems-box");
+  if (parentContainer) {
+    parentContainer.classList.add("navbar_subitems-box--show");
+  }
+});
+//
+/////////
+//
 hideButton.addEventListener("click", function () {
   if (!nameLogoContainer.classList.contains("navbar_hide")) {
     namesToggle();

@@ -1,3 +1,443 @@
+/* --------------------------- */
+/* ----- Section - Start ----- */
+.section_navbar {
+  grid-column: 1 / span 1;
+  grid-row: 1 / -1;
+  order: 999;
+  background-color: #ffffff;
+  box-shadow: 0 0 0.2rem rgba(0, 107, 87, 0.2);
+}
+.section_header {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.2rem 0 4.8rem;
+}
+.section_primary {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 2;
+  background-color: #e5f4ef;
+  overflow: auto;
+  padding: 2.4rem;
+}
+/* ------ Section - End ------ */
+/* --------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* --------------------------------- */
+/* ----- Navbar : Logo - Start ----- */
+.navbar_hide {
+  display: none !important;
+}
+.navbar_logo-box--1 {
+  position: relative;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+.navbar_logo-box--2 {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.navbar_name--1 {
+  color: #013580;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+.navbar_name--2 {
+  color: #013580;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar_hide-button {
+  position: absolute;
+  top: 50%;
+  right: -1.8rem;
+  transform: translateY(-50%);
+  background-color: rgba(1, 54, 128, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3.6rem;
+  width: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s;
+}
+.navbar_hide-button:hover {
+  background-color: rgba(1, 54, 128, 1);
+}
+/* ------ Navbar : Logo - End ------ */
+/* --------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ----------------------------------- */
+/* ----- Navbar : Scroll - Start ----- */
+.navbar_scroll-box {
+  /* background-color: #74b9ff; */
+  height: calc(100vh - 7rem);
+  overflow: auto;
+}
+/* ------ Navbar : Scroll - End ------ */
+/* ----------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* -------------------------------------- */
+/* ----- Navbar : Dashboard - Start ----- */
+.navbar_dashboard-box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding-right: 1.6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+.navbar_dashboard-bar {
+  background-color: #fff;
+  width: 0.6rem;
+  height: 4.8rem;
+  margin-right: 1.8rem;
+}
+.navbar_dashboard-icon {
+  width: 4rem;
+  margin-right: 0.8rem;
+}
+.navbar_dashboard-name {
+  color: #819cb5;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.navbar_dashboard-icon--active path {
+  fill: #006b57;
+}
+.navbar_dashboard-bar--active {
+  background-color: #006b57;
+}
+.navbar_dashboard-name--active {
+  color: #006b57;
+  font-weight: 700;
+}
+/* ------ Navbar : Dashboard - End ------ */
+/* -------------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------- */
+/* ----- Navbar : Lists - Start ----- */
+.navbar_lists-box {
+  margin-bottom: 1.6rem;
+}
+/* ------ Navbar : Lists - End ------ */
+/* ---------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* --------------------------------- */
+/* ----- Navbar : List - Start ----- */
+.navbar_list-box {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+/* ------ Navbar : List - End ------ */
+/* --------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* --------------------------------- */
+/* ----- Navbar : Item - Start ----- */
+.navbar_item-box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 1.6rem;
+}
+.navbar_item-icon {
+  flex-shrink: 0;
+  width: 4rem;
+  margin-right: 0.8rem;
+}
+.navbar_item-name {
+  flex-shrink: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #819cb5;
+  margin-right: 6.4rem;
+}
+.navbar_item-icon--active path {
+  fill: #013580;
+}
+.navbar_item-name--active {
+  color: #013580;
+  font-weight: 700;
+}
+/* ------ Navbar : Item - End ------ */
+/* --------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ------------------------------------ */
+/* ----- Navbar : Subitem - Start ----- */
+.navbar_subitems-box {
+  display: none;
+}
+.navbar_subitems-box--show {
+  display: block;
+}
+.navbar_subitem-box--2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-right: 1.6rem;
+}
+.navbar_subitem-bar {
+  flex-shrink: 0;
+  background-color: #fff;
+  width: 0.6rem;
+  height: 3.2rem;
+  margin-right: 3.2rem;
+}
+.navbar_subitem-icon {
+  flex-shrink: 0;
+  width: 4rem;
+  margin-right: 0.8rem;
+}
+.navbar_subitem-name {
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #819cb5;
+}
+.navbar_subitem-bar--active {
+  background-color: #006b57;
+}
+.navbar_subitem-icon--active path {
+  stroke: #006b57;
+}
+.navbar_subitem-name--active {
+  color: #006b57;
+  font-weight: 600;
+}
+/* ------ Navbar : Subitem - End ------ */
+/* ------------------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ------------------------------------ */
+/* ----- Navbar : Divider - Start ----- */
+.navbar_divider {
+  background-color: #d0d3db;
+  height: 0.1rem;
+  margin: 1.6rem 2.4rem;
+}
+/* ------ Navbar : Divider - End ------ */
+/* ------------------------------------ */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ----------------------------------- */
+/* ----- Header : Search - Start ----- */
+.header_search-box {
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1.2rem;
+}
+.header_search-icon {
+  margin-right: 1.2rem;
+}
+.header_search-bar {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000;
+  width: 30rem;
+  height: 3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.header_search-bar::placeholder {
+  color: #adb5bd;
+}
+.header_search-bar:focus {
+  outline: none;
+}
+/* ------ Header : Search - End ------ */
+/* ----------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------------- */
+/* ----- Header : Information - Start ----- */
+.header_information-box {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.header_info-icon {
+  cursor: pointer;
+}
+.header_info-image-box {
+  cursor: pointer;
+  background-color: #000;
+  height: 4.4rem;
+  width: 4.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header_profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ------ Header : Information - End ------ */
+/* ---------------------------------------- */
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/* ---------------------------------------- */
+/* ----- Header : Information - Start ----- */
+/* Dashboard - End */
+/* --------------- */
 /* --------------- */
 /* Message - Start */
 .section-message {
@@ -588,113 +1028,7 @@
 */
 /*
 */
-/* --------------- */
-/* Section - Start */
-.section_navbar {
-  grid-column: 1 / span 1;
-  grid-row: 1 / -1;
-  order: 999;
-  /* - */
-  background-color: #ffffff;
-  box-shadow: 0 0 0.2rem rgba(0, 107, 87, 0.2);
-}
-.section_header {
-  grid-column: 2 / span 2;
-  grid-row: 1 / span 1;
-  /* - */
-  background-color: #00815c;
-  /* - */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* - */
-  padding: 0 3.2rem;
-}
-.section_primary {
-  grid-column: 2 / span 2;
-  grid-row: 2 / span 2;
-  /* - */
-  background-color: #e5f4ef;
-  overflow: auto;
-  /* - */
-  padding: 2.4rem;
-}
-/* Section - End */
-/* ------------- */
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/* --------------------------------- */
-/* ----- Navbar : Logo - Start ----- */
-.navbar_hide {
-  display: none !important;
-}
-.navbar_logo-box--1 {
-  position: relative;
-  height: 7rem;
-  /* - */
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-  /* - */
-  padding-left: 2.4rem;
-  padding-right: 2.4rem;
-}
-.navbar_logo-box--2 {
-  text-decoration: none;
-  cursor: pointer;
-  /* - */
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-}
-/* .navbar_name-box {
-  display: block;
-} */
-.navbar_name--1 {
-  color: #013580;
-  font-size: 1.6rem;
-  font-weight: 700;
-  /* - */
-  margin-top: 0.8rem;
-  margin-bottom: 0.2rem;
-}
-.navbar_name--2 {
-  color: #013580;
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
 
-.navbar_hide-button {
-  position: absolute;
-  top: 50%;
-  right: -1.8rem;
-  transform: translateY(-50%);
-  /* - */
-  background-color: rgba(1, 54, 128, 0.2);
-  border-radius: 50%;
-  cursor: pointer;
-  height: 3.6rem;
-  width: 3.6rem;
-  /* - */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.1s;
-}
-.navbar_hide-button:hover {
-  background-color: rgba(1, 54, 128, 1);
-}
-/* ------ Navbar : Logo - End ------ */
-/* --------------------------------- */
 /*
 */
 /*
@@ -705,243 +1039,6 @@
 */
 /*
 */
-/* ----------------------------------- */
-/* ----- Navbar : Scroll - Start ----- */
-.navbar_scroll-box {
-  /* background-color: #74b9ff; */
-  height: calc(100vh - 7rem);
-  overflow: auto;
-}
-/* ------ Navbar : Scroll - End ------ */
-/* ----------------------------------- */
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/* -------------------------------------- */
-/* ----- Navbar : Dashboard - Start ----- */
-.navbar_dashboard-box {
-  display: flex;
-  align-items: center;
-  /* - */
-  text-decoration: none;
-  cursor: pointer;
-  /* - */
-  padding-right: 1.6rem;
-  margin-top: 1.6rem;
-  margin-bottom: 0.8rem;
-}
-.navbar_dashboard-bar {
-  background-color: #fff;
-  width: 0.6rem;
-  height: 4.8rem;
-  /* - */
-  margin-right: 1.8rem;
-}
-.navbar_dashboard-icon {
-  width: 4rem;
-  /* ----- */
-  margin-right: 0.8rem;
-}
-.navbar_dashboard-name {
-  color: #819cb5;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-.navbar_dashboard-icon--active path {
-  fill: #006b57;
-}
-.navbar_dashboard-bar--active {
-  background-color: #006b57;
-}
-.navbar_dashboard-name--active {
-  color: #006b57;
-  font-weight: 700;
-}
-/* ------ Navbar : Dashboard - End ------ */
-/* -------------------------------------- */
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/* --------------------- */
-/* Navbar : List - Start */
-.navbar_lists-box {
-  margin-bottom: 1.6rem;
-}
-.navbar_list-box {
-  display: flex;
-  flex-direction: column;
-  /* - */
-  cursor: pointer;
-}
-
-.navbar_item-box {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  /* - */
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
-  padding-left: 2.4rem;
-  padding-right: 1.6rem;
-}
-.navbar_item-icon {
-  flex-shrink: 0;
-  width: 4rem;
-  /* --------------- */
-  margin-right: 0.8rem;
-}
-.navbar_item-name {
-  flex-shrink: 0;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #819cb5;
-  margin-right: 6.4rem;
-}
-.navbar_item-icon--active path {
-  fill: #013580;
-}
-.navbar_item-name--active {
-  color: #013580;
-  font-weight: 700;
-}
-
-.navbar_subitems-box {
-  display: none;
-}
-.navbar_subitems-box--show {
-  display: block;
-}
-.navbar_subitem-box--2 {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  /* - */
-  padding-right: 1.6rem;
-}
-.navbar_subitem-bar {
-  flex-shrink: 0;
-  background-color: #fff;
-  width: 0.6rem;
-  height: 3.2rem;
-  /* --------------- */
-  margin-right: 3.2rem;
-}
-.navbar_subitem-icon {
-  flex-shrink: 0;
-  width: 4rem;
-  /* --------------- */
-  margin-right: 0.8rem;
-}
-.navbar_subitem-name {
-  flex-shrink: 0;
-  font-size: 1.4rem;
-  font-weight: 500;
-  color: #819cb5;
-}
-.navbar_subitem-bar--active {
-  background-color: #006b57;
-}
-.navbar_subitem-icon--active path {
-  stroke: #006b57;
-}
-.navbar_subitem-name--active {
-  color: #006b57;
-  font-weight: 600;
-}
-
-.navbar_divider {
-  background-color: #d0d3db;
-  height: 0.1rem;
-  /* --------------- */
-  margin: 1.6rem 2.4rem;
-}
-/* Navbar : List - End */
-/* ------------------- */
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-/*
-*/
-
-.header_search-box {
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  border: 1px solid #e9ecef;
-  border-radius: 0.4rem;
-  padding: 0.4rem 1.2rem;
-}
-.header_search-icon {
-  margin-right: 1.2rem;
-}
-.header_search-bar {
-  font-family: "Poppins", sans-serif;
-  background-color: #fff;
-  color: #000;
-  font-weight: 500;
-  border: none;
-  width: 30rem;
-  height: 3rem;
-  font-size: 1.6rem;
-}
-.header_search-bar::placeholder {
-  color: #adb5bd;
-}
-.header_search-bar:focus {
-  outline: none;
-}
-.header_information-box {
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
-}
-.header_info-icon {
-  cursor: pointer;
-}
-.header_profile-box {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-  cursor: pointer;
-}
-.header_profile-image-box {
-  background-color: #fff;
-  height: 4.4rem;
-  width: 4.4rem;
-  border-radius: 50%;
-  overflow: hidden;
-}
-.header_profile-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.header_profile-name {
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #232d42;
-}
-/* Dashboard - End */
-/* --------------- */
 
 .primary_container {
   background-color: #fff;
